@@ -1,0 +1,134 @@
+{
+    "name": "Dengue Virus Infection",
+    "rules": [
+        {
+            "stage": 1,
+            "advice": "You should go to the doctor",
+            "fact": [
+                {
+                    "name": "High fever days",
+                    "operator": ">=<=",
+                    "value1": 3,
+                    "value2": 7
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Bleeding from gums and nose"
+                },
+                {
+                    "name": "Vomiting coffee-colored liquid"
+                },
+                {
+                    "name": "Black , tarry stools"
+                },
+                {
+                    "name": "Severe abdominal pain"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Bleeding from gums and nose"
+                },
+                {
+                    "name": "Vomiting coffee-colored liquid"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Bleeding from gums and nose"
+                },
+                {
+                    "name": "Black , tarry stools"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Bleeding from gums and nose"
+                },
+                {
+                    "name": "Severe abdominal pain"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Vomiting coffee-colored liquid"
+                },
+                {
+                    "name": "Black , tarry stools"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Vomiting coffee-colored liquid"
+                },
+                {
+                    "name": "Severe abdominal pain"
+                }
+            ]
+        },
+        {
+            "stage": 2,
+            "advice": "You really need to go to the hospital",
+            "fact": [
+                {
+                    "name": "Black , tarry stools"
+                },
+                {
+                    "name": "Severe abdominal pain"
+                }
+            ]
+        },
+        {
+            "name": "Dengue Virus Infection",
+            "stage": 3,
+            "emergency": "This is SHOCK condition",
+            "advice": "You have to go to the hospital right now",
+            "fact": [
+                {
+                    "name": "Cold or clammy skin"
+                },
+                {
+                    "name": "Very Weak Blood Pressure"
+                }
+            ]
+        },
+        {
+            "stage": 4,
+            "emergency": "This is EMERGENCY !!!!!",
+            "advice": "This is EMERGENCY !!!!!",
+            "fact": [
+                {
+                    "name": "Cannot detect both the blood pressure and heart pulse"
+                },
+                {
+                    "name": "Dark-Blue coloured skin and lips"
+                }
+            ]
+        }
+    ]
+}
